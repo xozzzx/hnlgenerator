@@ -2,7 +2,7 @@
 <html lang="en-GB">
 <head>
     <meta charset="iso-8859-2" />
-    <title>slabText &mdash; a jQuery plugin for creating big, bold &amp; responsive headlines</title>
+    <title>intergalactical hack es langos generator AI</title>
     <!-- slabtext stylesheet -->
     <link href="css/slabtext.css" rel="stylesheet" type="text/css" />
     <!-- demo styles inline -->
@@ -10,8 +10,8 @@
         html,
         body
             {
-            background:#fcfcfc;
-            color:#444;
+            background:#eceff4;
+            font-color:#5e81ac;
             }
         body
             {
@@ -21,7 +21,7 @@
             margin:0 auto;
             }
        
-        /* http://css-tricks.com/simple-styles-for-horizontal-rules/ */
+
         hr
             {
             border:0;
@@ -35,7 +35,7 @@
         
         a
             {
-            color:#111;
+            color:#5e81ac;
 			text-decoration: none;
             }
         h1 a
@@ -44,7 +44,7 @@
             }
         h1 a:hover
             {
-            color:#a82222;
+            color:#b48ead;
             }
         h1, h2
             {
@@ -106,29 +106,21 @@
             font-style:italic;
             font-weight:lighter;
             }
-        /* Set font-sizes for the headings to be given the slabText treatment */
+
         h1
             {
             text-align:left;
             font-family:"Oswald", "Arial Black", Gadget, sans-serif;
             text-transform:uppercase;
             line-height:1;
-            color:#222;
+            color:#5e81ac;
             }
-        /* Adjust the line-height for all headlines contining small letter
-           counts as the font will probably be rendered at a large scale
-           and we want to reduce the interline whitespace slightly.
-           This isn't an exact art and the line-height you set will also depend
-           on the font used.
-           Headlines that have been preset do not have this utility class added
-           to the existing spans (but individual lines can always be targetted
-           using the nth-child selector as shown below) */
+
         .slabtext-linesize-0
         {
         line-height:.9;
         }
-        /* Just for the demo, adjust the line-height of the second line
-           within the preset headline (the line that reads "Jackie Mittoo") */
+
         #studio-one span:nth-child(2)
         {
         line-height:.9;
@@ -226,7 +218,37 @@
 						<script>
 						(function() {
 						  var hacks = [
-							"hack1", "hack2", "hack3", "hack4"
+							"Csuka",
+							"Bodorka",
+							"Amur",
+							"Vörösszárnyú keszeg",
+							"Jászkeszeg",
+							"Balin",
+							"Szélhajtó küsz",
+							"Karikakeszeg",
+							"Dévérkeszeg",
+							"Lapos keszeg",
+							"Garda",
+							"Compó",
+							"Halványfoltú küllő",
+							"Kínai razbóra",
+							"Szivárványos ökle",
+							"Kárász",
+							"Ezüstkárász",
+							"Ponty",
+							"Fehér busa",
+							"Pettyes busa",
+							"Réti csík",
+							"Európai harcsa",
+							"Törpeharcsa",
+							"Európai angolna",
+							"Naphal",
+							"Sügér",
+							"Vágó durbincs",
+							"Fogassüllő",
+							"Kősüllő",
+							"Folyami géb",
+							"Fejes domolykó"
 						  ];
 						  var hack = hacks[Math.floor(Math.random() * hacks.length)];
 						  document.getElementById("hack").innerHTML =
@@ -237,7 +259,50 @@
 			
 			</span> 
 			
-			<span class="slabtext"><span class="amp">&amp;</span> Lángos</span>  
+			<span class="slabtext">
+			<span class="amp">&amp;</span> 
+				<div id="langos"></div>
+						<script>
+						(function() {
+						  var langoses = [
+							"Pörkölt",
+							"Gulyás",
+							"Krumpli",
+							"Tepertő",
+							"Nokedli",
+							"Palacsinta",
+							"Lecsó",
+							"Paprikás Csirke",
+							"Szilvás gombóc",
+							"Töltött Paprika",
+							"Borsos Tokány",
+							"Pogácsa",
+							"Paprikás Krumpli",
+							"Székelykáposzta",
+							"Perec",
+							"Krumplis Tészta",
+							"Palócleves",
+							"Gombapaprikás tejföllel",
+							"Cigánypecsenye",
+							"Hortobágyi húsos palacsinta",
+							"Köményes karaj",
+							"Meggyes rétes",
+							"Húsleves",
+							"Mákos guba",
+							"Tökfőzelék",
+							"Bableves",
+							"Pacal",
+							"Körömpörkölt",
+							"Hamburger",
+							"Gyros",
+							"Hot-dog"
+						  ];
+						  var langos = langoses[Math.floor(Math.random() * langoses.length)];
+						  document.getElementById("langos").innerHTML =
+							langos;
+						})();
+					  </script>
+			</span>  
 
 			</h1>
 		</a>
