@@ -17,10 +17,17 @@
             {
             font: 16px/1.8 "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
             width:92%;
-            padding:20px 0;
+            padding:50px 0 0 0;
             margin:0 auto;
             }
        
+	   .wrapper {
+		  height: 100vh;
+		  overflow: hidden;
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		}
 
         hr
             {
@@ -213,6 +220,7 @@
     <![endif]-->
     </head>
     <body>
+	<div class="wrapper">
 		<a href="https://hackeslangos.show/">
             <h1 id="studio-one">
 			<span class="slabtext">
@@ -339,14 +347,14 @@
 						  ];
 						  var langos = langoses[Math.floor(Math.random() * langoses.length)];
 						  document.getElementById("langos").innerHTML =
-							'<span class="amp">&amp; </span>' + langos;
+							'<span class="amp">&amp;</span>' + langos;
 						})();
 					  </script>
 			</span>  
 
 			</h1>
 		</a>
-
+	</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="js/jquery.slabtext.min.js"></script>
     <script>
