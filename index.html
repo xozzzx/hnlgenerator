@@ -221,7 +221,21 @@
     <body>
 		<a href="https://hackeslangos.show/">
             <h1 id="studio-one">
-			<span class="slabtext">Hack</span> 
+			<span class="slabtext">
+				<div id="hack"></div>
+						<script>
+						(function() {
+						  var hacks = [
+							"hack1", "hack2", "hack3", "hack4"
+						  ];
+						  var hack = hacks[Math.floor(Math.random() * hacks.length)];
+						  document.getElementById("hack").innerHTML =
+							hack;
+						})();
+					  </script>
+			
+			
+			</span> 
 			
 			<span class="slabtext"><span class="amp">&amp;</span> Lángos</span>  
 
